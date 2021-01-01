@@ -46,7 +46,7 @@ function App() {
 
     useEffect(() => {
         setData(reviewData.filter((r) => r.id === currentId)[0])
-    }, [currentId,reviewData])
+    }, [currentId])
 
     return (
         <main style={{marginTop: "100px"}}>
