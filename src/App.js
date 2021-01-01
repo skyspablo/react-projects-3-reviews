@@ -45,9 +45,8 @@ function App() {
 
 
     useEffect(() => {
-        console.log("?");
         setData(reviewData.filter((r) => r.id === currentId)[0])
-    }, [currentId])
+    }, [currentId,reviewData])
 
     return (
         <main style={{marginTop: "100px"}}>
@@ -58,8 +57,8 @@ function App() {
 
                         <div key={data.id} style={ {textAlign:"center"}}>
                             <CardImgTop src={data.picture} alt={data.name} style={{height:"200px", width:"200px", objectFit:"cover", objectPosition:"center", borderRadius:"50%"}}/>
-                            <h3>{data.name} {data.id}</h3>
-                            <h4><a href="#">{data.jobTitle}</a></h4>
+                            <h3>{data.name}</h3>
+                            <h4><a href="#{data.id}">{data.jobTitle}</a></h4>
                             <p style={{maxWidth:"80%", minHeight:"150px", margin:"auto", textAlign:"justify"}}>{data.bio}</p>
                             <div style={ {marginTop:"20px"}}>
                                 <button style={{padding:"5px 10px", margin: "0 10px"}} onClick={() => countDown()}>&lt;</button>
