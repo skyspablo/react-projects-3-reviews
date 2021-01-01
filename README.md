@@ -12,4 +12,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Demo
-Visit [https://temp.netlify.app](https://temp.netlify.app)
+Visit [https://heuristic-raman-4ee2a1.netlify.app](https://heuristic-raman-4ee2a1.netlify.app)
