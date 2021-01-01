@@ -1,0 +1,12 @@
+.sisdom-heading{
+    color:#007386;
+    font-size: 2.75rem;
+}
+
+.sisdom-heading-divisor{
+    background: blue;
+    height: .25rem;
+    width: 4rem;
+    margin: auto;
+
+}
